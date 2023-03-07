@@ -43,7 +43,7 @@ namespace Reader_Namespace
             Console.WriteLine(String.Format("{0} взял {1} книг(и)"), FIO, number_of_books);
         }
 
-        public void takeBook(int[] names_books)
+        public void takeBook(string[] names_books)
         {
             Console.WriteLine(String.Format("{0} взял {1} книг(и)"), FIO, names_books);
         }
@@ -52,7 +52,7 @@ namespace Reader_Namespace
         {
             Console.WriteLine(String.Format("{0} ввернул {1} книг(и)"), FIO, number_of_books);
         }
-        public void returnBook(int[] names_books)
+        public void returnBook(string[] names_books)
         {
             Console.WriteLine(String.Format("{0} вернул {1} книг(и)"), FIO, names_books);
         }
